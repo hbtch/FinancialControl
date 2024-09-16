@@ -1,0 +1,58 @@
+.support {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    background-color: #2b2f42;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    margin-top: 20px;
+}
+
+.supportHeader {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.supportInfo {
+    margin-bottom: 20px;
+}
+
+.contactInfo {
+    margin-bottom: 10px;
+}
+
+.contactInfo a {
+    color: white; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+.contactInfo a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание при наведении */
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.linkList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.linkList li {
+    margin-bottom: 10px;
+}
+
+.linkList a {
+    color: #0096ff;
+    text-decoration: none;
+}
+
+.linkList a:hover {
+    text-decoration: underline;
+}
+
+

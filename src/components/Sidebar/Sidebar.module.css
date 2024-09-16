@@ -1,0 +1,22 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sidebarButton {
+    width: 300px;
+    width: 100%;
+    margin-left: 20px;
+    background-color: #0096ff; /* Цвет кнопки */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebarButton:hover {
+    background-color: #007acc; /* Темнее при наведении */
+}

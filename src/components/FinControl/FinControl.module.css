@@ -1,0 +1,66 @@
+.finControl {
+width: 300px;
+height: 300px;
+padding: 20px; /* Отступы внутри блока */
+background-color: #2b2f42;
+color: #ffffff;
+border-radius: 10px; /* Скругленные углы блока */
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.finControlHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.finControl p {
+margin-top: 5px;
+font-size: 18px; /* Размер шрифта заголовка */
+font-weight: bold;
+margin-bottom: 20px; /* Отступ снизу для заголовка */
+}
+
+.navList {
+list-style-type: none; /* Убираем маркеры списка */
+padding: 0;
+margin: 0;
+}
+
+.navItem {
+    font-size: 16px; /* Размер шрифта пунктов списка */
+    margin-bottom: 10px; /* Отступ между элементами списка */
+    cursor: pointer;
+    background-color: rgb(59, 63, 83);
+    padding: 18px 20px; /* Внутренние отступы */
+    border-radius: 8px; /* Закругленные углы */
+    color: #fff; /* Цвет текста */
+    transition: background-color 0.3s ease; /* Плавный переход для фона */
+}
+
+.navItem:hover {
+text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.finControl button {
+width: 20%;
+height: 20%;
+background-color: #007bff; /* Синий фон кнопки */
+color: #ffffff;
+padding: 15px 0; /* Внутренние отступы кнопки */
+font-size: 16px;  /* Размер текста кнопки */
+border: none; 
+border-radius: 5px;
+display: flex;
+justify-content: center;
+cursor: pointer;
+align-items: center;
+transition: background-color 0.3s ease; /* Плавный переход цвета фона при наведении */
+}
+
+.finControl button:hover {
+background-color: #0056b3; /* Более темный синий при наведении */
+}
