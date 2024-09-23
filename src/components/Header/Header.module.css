@@ -1,4 +1,27 @@
 .header {
     display: flex;
     flex-direction: row;
+    background-color: white;
+    border-radius: 14px;
+}
+.headerButtonGroup {
+    display: flex;
+}
+.buttonGetOut {
+    width: 80px;
+    padding: 5px 5px;
+    background-color: white; 
+    color: black; 
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.buttonAboutUs {
+    width: 80px;
+    padding: 5px 5px;
+    background-color: white; 
+    color: black; 
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
 }

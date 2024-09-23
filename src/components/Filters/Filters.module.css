@@ -1,0 +1,36 @@
+.filters {
+    display: flex;
+    flex-direction: column; /* Располагает элементы вертикально */
+    margin: 20px;
+}
+
+.filterInputs {
+    display: flex; /* Располагает инпуты в строку */
+    flex-direction: row;
+    gap: 10px; /* Зазор между инпутами */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    flex: 1; /* Инпуты занимают равное пространство */
+}
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttonForm {
+    width: 150px;
+    padding: 15px 15px;
+    background-color: #007bff; 
+    color: white; 
+    font-size: 14px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}

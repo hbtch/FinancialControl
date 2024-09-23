@@ -1,6 +1,7 @@
 .dashboard {
     display: flex;
     height: 100vh;
+    background-color: gray;
 }
 
 .content {
@@ -8,5 +9,4 @@
     flex-direction: column;
     flex: 1;
     padding: 20px;
-    background-color: #f9f9f9;
 }
