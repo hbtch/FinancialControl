@@ -1,5 +1,6 @@
 import { Button } from '../Button/Button';
 import styles from './FinControl.module.css';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 export const FinControl = () => {
     return (
