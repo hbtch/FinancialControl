@@ -1,11 +1,20 @@
-import { Button } from '../Button/Button'
-import styles from './Header.module.css'
+import { Button } from '../Button/Button';
+import styles from './Header.module.css';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 export const Header = () => {
     return (
         <div className={styles.header}>
-            <p>Иванов И.И</p>
-            <p>Тариф до 15.04.24</p>
+            <div className={styles.headerUserInfo}>
+                <SupervisorAccountIcon className={styles.userIcon} />
+                <p>Иванов И.И</p>
+                <div className={styles.headerTariff}>
+                    <CalendarMonthIcon className={styles.tariffIcon} />
+                    <p>Тариф до 15.04.24</p>
+                </div>
+            </div>
+
             <div className={styles.headerButtonGroup}>
                 <Button 
                     text="Выйти" 

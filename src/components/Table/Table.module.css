@@ -39,7 +39,24 @@ tfoot td {
     font-weight: bold; /* Жирный текст для итогов */
 }
 
-.exportButton {
+.buttonGroup {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.buttonForm {
+    width: 150px;
+    padding: 15px 15px;
+    background-color: #007bff; 
+    color: white; 
+    font-size: 14px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.buttonExport {
     width: 100px;
     padding: 15px 15px;
     background-color: #007bff; 
@@ -53,4 +70,32 @@ tfoot td {
 
 .exportButtonhover {
     background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+/* Мобильные устройства (до 480px) */
+@media (max-width: 480px) {
+
+}
+
+/* Небольшие планшеты (от 481px до 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Большие планшеты и маленькие десктопы (от 769px до 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Десктопы (от 1025px до 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .tableContainer {
+        width: 800px;
+    }
+    
+}
+
+/* Очень большие экраны (от 1441px и выше) */
+@media (min-width: 1441px) {
+
 }

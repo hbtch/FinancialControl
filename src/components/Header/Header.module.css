@@ -1,12 +1,35 @@
 .header {
+    width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: white;
     border-radius: 14px;
 }
+
+.headerUserInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 10px;
+}
+
+.headerTariff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e7f0ff;
+    border-radius: 14px;
+    padding: 5px 10px;
+}
+
 .headerButtonGroup {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
 .buttonGetOut {
     width: 80px;
     padding: 5px 5px;
@@ -15,7 +38,11 @@
     font-size: 14px;
     border-radius: 12px;
     cursor: pointer;
+    border-radius: 22px;
+    width: 70px;
+    height: 40px;
 }
+
 .buttonAboutUs {
     width: 80px;
     padding: 5px 5px;
@@ -24,4 +51,32 @@
     font-size: 14px;
     border-radius: 12px;
     cursor: pointer;
+    border-radius: 22px;
+    width: 70px;
+    height: 40px;
+}
+/* Мобильные устройства (до 480px) */
+@media (max-width: 480px) {
+
+}
+
+/* Небольшие планшеты (от 481px до 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Большие планшеты и маленькие десктопы (от 769px до 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Десктопы (от 1025px до 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    
+    
+}
+
+/* Очень большие экраны (от 1441px и выше) */
+@media (min-width: 1441px) {
+
 }

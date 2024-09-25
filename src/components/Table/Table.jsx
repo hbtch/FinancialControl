@@ -7,7 +7,7 @@ export const Table = () => {
 
     const handleExport = async () => {
         try {
-            const response = await fetch('/data.json'); // Укажите правильный путь к data.json
+            const response = await fetch('/data.json');
             const jsonData = await response.json();
             setData(jsonData); // Обновляем состояние с новыми данными
         } catch (error) {
@@ -20,11 +20,17 @@ export const Table = () => {
 
     return (
         <div className={styles.tableContainer}>
-            <Button 
+            <div className={styles.buttonGroup}>
+                <Button 
+                    text="Сформировать" 
+                    className={styles.buttonForm} 
+                />
+                <Button 
                 text="Экспорт" 
                 onClick={handleExport} 
-                className={styles.exportButton} 
-            />
+                className={styles.buttonExport} 
+                />
+            </div>
             <div className={styles.tableWrapper}>
                 <table className={styles.table}>
                     <thead>

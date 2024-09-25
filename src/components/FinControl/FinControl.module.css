@@ -1,6 +1,6 @@
 .finControl {
-width: 300px;
-height: 300px;
+width: 250px;
+height: auto;
 padding: 20px; /* Отступы внутри блока */
 background-color: #2b2f42;
 color: #ffffff;
