@@ -1,6 +1,6 @@
 .support {
     width: 300px;
-    height: 300px;
+    height: 340px;
     margin-left: 20px;
     background-color: #2b2f42;
     color: #ffffff;
@@ -16,20 +16,37 @@
 }
 
 .supportInfo {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
-.contactInfo {
+.supportInfoFirst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.supportItem {
     margin-bottom: 10px;
 }
 
-.contactInfo a {
-    color: white; /* Цвет ссылок */
-    text-decoration: none; /* Убираем подчеркивание ссылок */
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #968b8b;
+    font-size: 12px;
 }
 
-.contactInfo a:hover {
-    text-decoration: underline; /* Добавляем подчеркивание при наведении */
+.value a,
+.value {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.value {
+    font-size: 14px;
 }
 
 .links {
@@ -44,10 +61,13 @@
 
 .linkList li {
     margin-bottom: 10px;
+    border-bottom: 1px solid #4a4a4a;
+    padding-bottom: 5px;
 }
 
 .linkList a {
-    color: #0096ff;
+    font-size: 14px;
+    color: white;
     text-decoration: none;
 }
 

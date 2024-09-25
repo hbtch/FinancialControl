@@ -7,9 +7,20 @@ export const Support = () => {
                 <p>Техническая поддержка</p>
             </div>
             <div className={styles.supportInfo}>
-                <p className={styles.contactInfo}>Номер поддержки: <a href="tel:+89999999999">8 (999) 999 99 99</a></p>
-                <p className={styles.contactInfo}>Почта поддержки: <a href="mailto:pf1@werthesest.ru">pf1@werthesest.ru</a></p>
-                <p>Часы работы: ПН - ПТ с 9:00 до 19:00 МСК</p>
+                <div className={styles.supportInfoFirst}>
+                    <div className={styles.supportItem}>
+                        <p className={styles.label}>Номер поддержки:</p>
+                        <p className={styles.value}><a href="tel:+89999999999">8 (999) 999 99 99</a></p>
+                    </div>
+                    <div className={styles.contactItem}>
+                        <p className={styles.label}>Почта поддержки:</p>
+                        <p className={styles.value}><a href="mailto:pf1@werthesest.ru">pf1@werthesest.ru</a></p>
+                    </div>
+                </div>
+                <div className={styles.contactItem}>
+                    <p className={styles.label}>Часы работы:</p>
+                    <p className={styles.value}>ПН - ПТ с 9:00 до 19:00 МСК</p>
+                </div>
             </div>
             <div className={styles.links}>
                 <ul className={styles.linkList}>

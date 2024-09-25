@@ -27,20 +27,23 @@ margin-bottom: 20px; /* Отступ снизу для заголовка */
 .navList {
 list-style-type: none; /* Убираем маркеры списка */
 padding: 0;
-margin: 0;
+margin-top: 5px 10px;
 }
 
 .navItem {
-    font-size: 16px; /* Размер шрифта пунктов списка */
-    margin-bottom: 10px; /* Отступ между элементами списка */
-    cursor: pointer;
+    display: flex; /* Устанавливаем flexbox для выравнивания элементов по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    margin-bottom: 10px;
     background-color: rgb(59, 63, 83);
-    padding: 18px 20px; /* Внутренние отступы */
     border-radius: 8px; /* Закругленные углы */
-    color: #fff; /* Цвет текста */
-    transition: background-color 0.3s ease; /* Плавный переход для фона */
+    cursor: pointer;
+    padding: 10px 10px; /* Внутренние отступы */
+    font-size: 16px;
 }
 
+.icon {
+    margin-right: 8px; /* Добавляем отступ между иконкой и текстом */
+}
 .navItem:hover {
 text-decoration: underline; /* Подчеркивание при наведении */
 }
