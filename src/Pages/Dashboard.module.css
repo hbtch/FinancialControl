@@ -1,8 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Для более точного расчета ширины и высоты */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .dashboard {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    height: auto;
+    width: 100vv;
+    height: 100vh;
     background-color: gray;
 }
 
@@ -14,29 +28,46 @@
 
 /* Мобильные устройства (до 480px) */
 @media (max-width: 480px) {
-
+    .dashboard {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* Небольшие планшеты (от 481px до 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-
+    .dashboard {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* Большие планшеты и маленькие десктопы (от 769px до 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-
+    .dashboard {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* Десктопы (от 1025px до 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
-    
+    .dashboard {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* Очень большие экраны (от 1441px и выше) */
 @media (min-width: 1441px) {
-
+    .dashboard {
+        height: 100%;
+    }
 }
 
 @media (min-width: 2560px) {
+    .dashboard {
+        height: 100%;
+    }
 }
 

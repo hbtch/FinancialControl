@@ -74,28 +74,59 @@ tfoot td {
 
 /* Мобильные устройства (до 480px) */
 @media (max-width: 480px) {
-
+    .tableContainer {
+        width: 750px;
+    }
+    .table {
+        width: 100%;
+    }
 }
 
 /* Небольшие планшеты (от 481px до 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-
+    .tableContainer {
+        width: 750px;
+    }
+    .table {
+        width: 100%;
+    }
 }
 
 /* Большие планшеты и маленькие десктопы (от 769px до 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-
+    .tableContainer {
+        width: 750px;
+    }
+    .table {
+        width: 100%;
+    }
 }
 
 /* Десктопы (от 1025px до 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
     .tableContainer {
-        width: 800px;
+        width: 1050px;
+    }
+    .table {
+        width: 100%;
     }
     
 }
 
 /* Очень большие экраны (от 1441px и выше) */
 @media (min-width: 1441px) {
-
+    .tableContainer {
+        width: 1100px;
+    }
+    .table {
+        width: 100%;
+    }
+}
+@media (min-width: 2560px) {
+    .tableContainer {
+        width: 2000px;
+    }
+    .table {
+        width: 100%;
+    }
 }
